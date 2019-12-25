@@ -1,4 +1,4 @@
-# AshokaTechForChange
+# Ashoka Tech For Change Code
 Ashoka Tech for Change repository
 
 # Dependencies
