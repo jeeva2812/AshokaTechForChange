@@ -12,3 +12,4 @@ Make sure you have the following Python dependencies installed:
 - OSMNX
 - Google OR Tools
 
+You will also need MySQL 8 up and running on your computer, listening through localhost.
