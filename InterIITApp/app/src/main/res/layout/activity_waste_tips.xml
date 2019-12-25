@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_pic_plastic"
+        android:layout_width="160dp"
+        android:layout_height="140dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/plastic" />
+
+    <TextView
+        android:id="@+id/tv_title_plastic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="246dp"
+        android:layout_marginLeft="246dp"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Plastic Waste" />
+
+    <TextView
+        android:id="@+id/tv_info_plastic"
+        android:layout_width="385dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="173dp"
+        android:layout_marginLeft="173dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="-147dp"
+        android:layout_marginRight="-147dp"
+        android:gravity="left"
+        android:text=" All kinds of PET bottles,\n cans and plastic containers\n can be recycled. Plastic bags,\n foam, medical waste, etc\n cannot be recycled and\n should be reused or minimized\n as much as possible." />
+
+    <ImageView
+        android:id="@+id/iv_pic_ewaste"
+        android:layout_width="160dp"
+        android:layout_height="140dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="276dp"
+        android:src="@drawable/ewaste" />
+
+    <TextView
+        android:id="@+id/tv_title_ewaste"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:text="E - Waste and Heavy Electricals"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_info_ewaste"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="174dp"
+        android:layout_marginTop="291dp"
+        android:layout_marginEnd="2dp"
+        android:text="Give the collected e-waste to a certified recycler or sell them to a firm which refurbishes these goods. The ones in working condition or minor problems can be refurbished and the others can be recycled to extract valuable resources." />
+
+    <ImageView
+        android:id="@+id/iv_pic_paper"
+        android:layout_width="160dp"
+        android:layout_height="140dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="519dp"
+        android:src="@drawable/paper" />
+
+    <TextView
+        android:id="@+id/tv_title_paper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="465dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginRight="90dp"
+        android:text="Paper Waste"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_info_paper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="533dp"
+        android:layout_marginEnd="9dp"
+        android:layout_toRightOf="@id/iv_pic_paper"
+        android:text="Collect all types of paper (including cardboard boxes) which are not coated with chemicals, wax or plastic and give it to your nearest recycler."
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="167dp"
+        android:layout_marginRight="9dp" />
+</RelativeLayout>

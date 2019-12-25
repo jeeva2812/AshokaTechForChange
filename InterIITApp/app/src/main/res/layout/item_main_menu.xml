@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mm_holder"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:outlineAmbientShadowColor="#808080"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/mm_icon"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/paper"
+        android:layout_marginRight="5dp"
+        android:layout_gravity="center_horizontal"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/mm_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:text="New Waste"/>
+        <TextView
+            android:id="@+id/mm_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:text="Add new waste request..."/>
+    </LinearLayout>
+
+
+</LinearLayout>

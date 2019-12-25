@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/plasticTV"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Enter weight of waste (in kg)"/>
+            <EditText
+                android:id="@+id/weightET"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:layout_marginTop="4dp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Comments/description of waste">
+        </TextView>
+        <EditText
+            android:id="@+id/commentsET"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="(optional)"
+            android:inputType="textMultiLine"
+            android:lines="4"
+            android:minLines="4"
+            android:gravity="top|left"
+            android:maxLines="4"
+            android:scrollbars="vertical"/>
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/btn_ewaste_submit"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ff9757"
+        android:textColor="#fff"
+        android:text="Submit Request"/>
+</RelativeLayout>

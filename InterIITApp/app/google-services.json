@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "407600884641",
+    "firebase_url": "https://inter-iit-backend.firebaseio.com",
+    "project_id": "inter-iit-backend",
+    "storage_bucket": "inter-iit-backend.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407600884641:android:571545e0c36b62dc2b39e0",
+        "android_client_info": {
+          "package_name": "com.iitm.interiitapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "407600884641-pj13b51kc5fr2kup3cgsmfon99v4278h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iitm.interiitapp",
+            "certificate_hash": "5d3e9233ea4c62f07691c317be4f4990285b3423"
+          }
+        },
+        {
+          "client_id": "407600884641-1o8b6kvotkpvcshakrltuj67ca5vkjdb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCcfp3REjfUQAWQ_9Waw1MAR_EXCCDHm0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "407600884641-1o8b6kvotkpvcshakrltuj67ca5vkjdb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

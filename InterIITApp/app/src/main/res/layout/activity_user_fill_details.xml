@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="Mobile No.:"/>
+
+            <EditText
+                android:id="@+id/mobileET"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:inputType="number"
+                android:layout_weight="2"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="Password:"/>
+
+            <EditText
+                android:id="@+id/newpasswordET"
+                android:layout_height="wrap_content"
+                android:inputType="textWebPassword"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="Confirm password:"/>
+
+            <EditText
+                android:id="@+id/confirmpasswordET"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:inputType="textWebPassword"
+                android:layout_weight="2"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/btn_sc_register"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="#338006"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:text="Register"/>
+</RelativeLayout>
